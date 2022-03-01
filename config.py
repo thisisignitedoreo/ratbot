@@ -1,6 +1,6 @@
 import base64
 coded_string = '''T1RRNE1qVTVNelV3T1RNMk5EUTVNRGsxLlloNU5Wdy5fdDJXU0VBNGxGcDIzM3ZXaGVFYVNwWUVaT2M='''
-tkn = base64.b64decode(coded_string)
+tkn = base64.b64decode(coded_string).decode("utf-8") 
 settings = {
     'token': tkn,
     'bot': 'RatBot',
