@@ -1,5 +1,4 @@
 discord.py
 discord
 requests
-json
 base64
